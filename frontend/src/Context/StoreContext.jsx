@@ -6,7 +6,7 @@ export const StoreContext = createContext(null);
 const StoreContextProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
 
-  const serverURL = "http://localhost:4000";
+  const serverURL = "https://food-del-green.vercel.app";
   const [token, setToken] = useState("");
 
   const [food_list, setFoodList] = useState([]); // Get food list from database
